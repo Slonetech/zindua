@@ -1,18 +1,31 @@
-body::after{
-    display: none;
-    content: url(/TWPR8431.JPG);
+.header-main{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: flex-start;
+    align-content: normal;
+    gap: 50px 40px;
 }
 
-.image{
-    width: 300px;
-    height: 500px;
-    background-image: url(/IMG_6944.JPG);
-    background-size:cover ;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition:all ease-in-out 1s;
+.header-main div{
+    height: 30px;
 }
 
-.image:hover{
-    background-image: url(/TWPR8431.JPG);
-} 
+.header-main .div-1{
+width: 100px;
+background-color: blueviolet;
+order: 3;
+}
+
+.header-main .div-2{
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.header-main .div-3{
+    width: 100px;
+    background-color:red;
+}
