@@ -1,0 +1,18 @@
+body::after{
+    display: none;
+    content: url(/TWPR8431.JPG);
+}
+
+.image{
+    width: 300px;
+    height: 500px;
+    background-image: url(/IMG_6944.JPG);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition:all ease-in-out 1s;
+}
+
+.image:hover{
+    background-image: url(/TWPR8431.JPG);
+} 
